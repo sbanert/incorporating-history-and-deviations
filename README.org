@@ -1,0 +1,26 @@
+* Incorporating history and deviations in forward--backward splitting
+This repository contains the code associated with our paper
+
+Hamed Sadeghi, Sebastian Banert, and Pontus Giselsson. /Incorporating history and deviations in forward--backward splitting./ 2022. arXiv: [[https://arxiv.org/abs/2208.05498v2][2208.05498v2 (math.OC)]]
+
+** Requirements
+Running the [[verification.ipynb][notebook]] for symbolic verification requires an installation of Python, Jupyter, and SymPy. Running the [[numerics][numerical experiments]] requires Python, NumPy, and matplotlib.
+
+I tested both with a system-wide installation on Arch Linux, using
+
++ Python 3.11.3
++ SymPy 1.12
++ Jupyterlab 4.0.2
++ NumPy 1.25.0
++ Matplotlib 3.7.1
+
+** Versions
+The [[main/verification.ipynb][notebook]] uses notation and references from arXiv version v2 of the above-mentioned article. The calculation in Section 6 of arXiv version v1 can be verified in the same way when using $\beta$ instead of $\bar \beta$ and $\ell_n^2$ instead of $\ell_n$ everywhere.
+
+The numerical experiments were added in arXiv version v2.
+
+** Authors
+Sebastian Banert, Pontus Giselsson, Hamed Sadeghi,\\
+Department of Automatic Control, Lund University.
+
+In case of any problems or questions, feel free to open an issue for this repository.
